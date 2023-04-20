@@ -1,7 +1,7 @@
 import { Flex, Heading, Text, Image, VStack } from "@chakra-ui/react";
 import { CustomScorllbar } from "../../styles/styles";
 
-interface VerticalCardProps {
+interface HorizontsCardProps {
     card : {
         image: {
             url: string,
@@ -13,7 +13,7 @@ interface VerticalCardProps {
     }
 }
 
-export function VerticalCard({ card }: VerticalCardProps) {
+export function HorizontsCard({ card }: HorizontsCardProps) {
     const { image, title, content, publishDate } = card
 
     return (
